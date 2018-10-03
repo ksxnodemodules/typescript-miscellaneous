@@ -1,2 +1,1 @@
-import UnionToIntersection from './union-to-intersection'
-export { UnionToIntersection }
+export * from './union-to-intersection'

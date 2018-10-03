@@ -1,3 +1,2 @@
 export * from './convert'
-import Dict from './dict'
-export { Dict }
+export * from './dict'
