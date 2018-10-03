@@ -12,11 +12,13 @@ temp.*
 *.tern-project*
 *.editorconfig*
 *.eslintrc*
+tslint*
 .git*
 /.travis.yml
 /appveyor.yml
 /circle.yml
 /sh
+coverage
 docs
 yarn.lock
 package-lock.json
