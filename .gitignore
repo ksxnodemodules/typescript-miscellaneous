@@ -18,7 +18,7 @@ temp.*
 *.tern-project.json
 *.js
 *.d.ts
-*.map.*
+*.map
 
 # Logs
 logs

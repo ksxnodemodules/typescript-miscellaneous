@@ -28,4 +28,4 @@ tsconfig*
 jest.config*
 *.ts
 !*.d.ts
-*.map.*
+*.map
