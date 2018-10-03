@@ -1,6 +1,6 @@
 {
   "name": "typescript-miscellaneous",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Miscellaneous TypeScript utilities",
   "main": "index.js",
   "types": "index.d.ts",
