@@ -8,6 +8,7 @@ devDependencies:
   iter-tools: 6.1.4
   jest: 23.6.0
   standard: 12.0.1
+  static-type-assert: 3.0.1
   ts-jest: 23.10.3
   tslint: 5.11.0
   tslint-config-standard: 8.0.1
@@ -4157,6 +4158,14 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-YICcOcv/VTNyJv1eC1IPNB8ftcY=
+  /static-type-assert/3.0.1:
+    dependencies:
+      typescript-compare: 0.0.2
+    dev: true
+    peerDependencies:
+      typescript: ^3.0.3
+    resolution:
+      integrity: sha512-zMKAbDEqRbysJdAmO6fcylkbTa1GQ285xZZvTxbjxNficxF+zVdkwsozJqbVntKds0oZ40kLFkPYTi2JO3zOBA==
   /stealthy-require/1.1.1:
     dev: true
     engines:
@@ -4477,6 +4486,16 @@ packages:
       node: '>= 0.8.0'
     resolution:
       integrity: sha1-WITKtRLPHTVeP7eE8wgEsrUg23I=
+  /typescript-compare/0.0.2:
+    dependencies:
+      typescript-logic: 0.0.0
+    dev: true
+    resolution:
+      integrity: sha512-8ja4j7pMHkfLJQO2/8tut7ub+J3Lw2S3061eJLFQcvs3tsmJKp8KG5NtpLn7KcY2w08edF74BSVN7qJS0U6oHA==
+  /typescript-logic/0.0.0:
+    dev: true
+    resolution:
+      integrity: sha512-zXFars5LUkI3zP492ls0VskH3TtdeHCqu0i7/duGt60i5IGPIpAHE/DWo5FqJ6EjQ15YKXrt+AETjv60Dat34Q==
   /typescript-tuple/1.7.3:
     dev: true
     engines:
@@ -4794,6 +4813,7 @@ specifiers:
   iter-tools: ^6.1.4
   jest: ^23.6.0
   standard: ^12.0.1
+  static-type-assert: ^3.0.1
   ts-jest: ^23.10.3
   tslib: ^1.9.3
   tslint: ^5.11.0
