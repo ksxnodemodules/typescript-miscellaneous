@@ -2,7 +2,7 @@
 
 ## Requirements
 
-* TypeScript ≥ 2.7.0
+* TypeScript ≥ 3.0.0
 
 ## Usage
 

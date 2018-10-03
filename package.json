@@ -60,7 +60,7 @@
     }
   },
   "engines": {
-    "typescript": ">= 2.7.0",
+    "typescript": ">= 3.0.0",
     "node": ">= 8.9.0"
   }
 }
