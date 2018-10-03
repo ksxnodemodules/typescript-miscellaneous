@@ -1,4 +1,28 @@
 {
+  "name": "typescript-miscellaneous",
+  "version": "0.0.0",
+  "description": "Miscellaneous TypeScript utilities",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksxnodemodules/typescript-miscellaneous.git"
+  },
+  "keywords": [
+    "typescript",
+    "miscellaneous",
+    "utility"
+  ],
+  "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksxnodemodules/typescript-miscellaneous/issues"
+  },
+  "homepage": "https://github.com/ksxnodemodules/typescript-miscellaneous#readme",
   "dependencies": {
     "@types/node": "^10.11.3",
     "tslib": "^1.9.3"
@@ -36,6 +60,7 @@
     }
   },
   "engines": {
+    "typescript": ">= 2.7.0",
     "node": ">= 8.9.0"
   }
 }
