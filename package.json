@@ -51,7 +51,8 @@
     "standard:fix": "npm run standard --fix",
     "tslint": "tslint --project .",
     "tslint:fix": "npm run tslint --fix",
-    "prepublishOnly": "npm test && npm run build"
+    "prepublishOnly": "npm test && npm run build",
+    "postpublish": "npm run clean"
   },
   "standard": {
     "env": {
