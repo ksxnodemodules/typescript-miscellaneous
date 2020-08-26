@@ -34,7 +34,7 @@
     "tslint-config-standard": "^8.0.1",
     "jest": "^26.0.0",
     "babel-jest": "^26.0.0",
-    "ts-jest": "^24.0.0",
+    "ts-jest": "^26.0.0",
     "yaml-jest": "^1.0.5",
     "iter-tools": "^6.1.4",
     "static-type-assert": "^3.0.1",
