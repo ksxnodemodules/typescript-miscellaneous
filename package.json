@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/ksxnodemodules/typescript-miscellaneous#readme",
   "dependencies": {
-    "@types/node": "^10.11.3",
+    "@types/node": "^18.0.0",
     "tslib": "^1.9.3"
   },
   "devDependencies": {
